@@ -23,12 +23,12 @@ const maxErrLength     = 90
   var imgList          = [ ["", ""] ];
   var lastImg
 const appArgs          = "" // used in app environment, to have widget configuration
-  let locationID       = "herkules" // default
+  let locationID       = "edmj" // default
 
 
 let webCams = [
     // id, URL, latitude, longitude, picture adjustment (used in medium widget)
-   {id:"herkules", label: "Herkules", url:"https://www.hessenschau.de/wetter/wetterkameras/wetterkamera-kassel-herkules-100.html", lat: 51.31610325, lon: 9.39355424670124, adjust: "bottom", showNightPics: false},
+   {id:"edmj", label: "EDMJ", url:"https://edmj.beck.space/east.jpg", lat: 48.1663316, lon: 11.1318657, adjust: "bottom", showNightPics: false},
    {id:"karlshafen", label: "Altes Rathaus",  url:"https://www.hessenschau.de/wetter/wetterkameras/wetterkamera-bad-karlshafen-100.html", lat: 51.6425572, lon: 9.4502277, adjust: "no", showNightPics: false},
    {id:"bsa", label: "Kurviertel",  url:"https://www.hessenschau.de/wetter/wetterkameras/wetterkamera-bad-sooden-allendorf-100.html", lat: 51.2695391, lon: 9.9719975, adjust: "bottom", showNightPics: false},
    {id:"darmstadt", label: "Darmstadt",  url:"https://www.hessenschau.de/wetter/wetterkameras/wetterkamera-darmstadt-schlossgarten-karolinenplatz-staatsarchiv-100.html", lat: 49.872775, lon: 8.651177, adjust: "bottom", showNightPics: false},
